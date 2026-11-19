@@ -1,0 +1,35 @@
+
+/* 1. Cambia el color del texto de todos los párrafos a azul y usa Verdana. */
+p {
+    color: blue;
+    font-family: Verdana;
+}
+
+/* 2. Fondo amarillo y texto en negrita para todos los elementos con clase importante. */
+.importante {
+    background-color: yellow;
+    font-weight: 800;
+}
+
+/* 3. Borde verde sólido de 3 píxeles y padding de 10 píxeles para el ID especial. */
+#especial {
+    border: 3px solid green;
+    padding: 10px;
+}
+
+/* 4. Margen exterior de 10 píxeles y margen interior de 5 píxeles para todos. */
+* {
+    margin: 10px;
+    padding: 5px;
+}
+
+/* 5. Color rojo y texto centrado para h1 y h2. */
+h1, h2 {
+    color: red;
+    text-align: center;
+}
+
+/* 6. Color morado solo para los párrafos con clase importante. */
+p.importante {
+    color: #BC00FF;
+}
